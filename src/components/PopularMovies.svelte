@@ -14,6 +14,7 @@
 <style>
     h3 {
         padding: 0 1rem;
+        margin-top: 20px;
     }
 
     .popular-movies {

@@ -1,7 +1,12 @@
-<nav>
-	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/settings">Settings</a>
-</nav>
+<script>
+	import '../../src/global.css';
+	import Nav from '../components/Nav.svelte';
+</script>
 
-<slot></slot>
+<svelte:head>
+	<title>Movie DB</title>
+</svelte:head>
+
+<Nav />
+
+<slot />
